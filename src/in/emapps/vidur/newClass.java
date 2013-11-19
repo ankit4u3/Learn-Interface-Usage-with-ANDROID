@@ -13,4 +13,10 @@ public class newClass {
 		// Do Something
 		triggers.showTost("This is Do Something");
 	}
+	public void calledFromMain(String msg) {
+		// Do Something
+		triggers.showTost(msg);
+	}
+	
+	
 }
